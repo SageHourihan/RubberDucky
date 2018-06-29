@@ -193,6 +193,21 @@ p {
 .btn-orange-outline:hover {
   transform: scale(1.1); }
 
+table {
+  font-family: "Inconsolata", Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 75%;
+  margin: 8px 4px; }
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px; }
+
+tr:nth-child(even) {
+  background-color: #dddddd; }
+
 .container {
   width: 90%;
   margin-left: auto;

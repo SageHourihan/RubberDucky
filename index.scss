@@ -234,6 +234,24 @@ p {
 .btn-orange-outline:hover {
   transform: scale(1.1);
 }
+//TODO: fix font inside of table
+table {
+  font-family: $font-family;
+  border-collapse: collapse;
+  width: 75%;
+  margin: 8px 4px;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
 // grid
 $width: 96%;
 $gutter: 4%;
