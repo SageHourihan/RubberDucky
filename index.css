@@ -1,17 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata");
-html,
-body {
+body,
+html {
   height: 100%;
   width: 100%;
   margin: 0;
   padding: 0;
   left: 0;
   top: 0;
-  font-size: 100%; }
+  font-size: 100%;
+  box-sizing: border-box; }
 
-* {
+*,
+*:before,
+:after {
   font-family: "Inconsolata", Helvetica, sans-serif;
-  line-height: 1.5; }
+  line-height: 1.5;
+  box-sizing: inherit; }
 
 h1 {
   font-size: 2.5rem; }
@@ -53,6 +57,110 @@ p {
 .hidden-sm {
   display: none; }
 
+.btn-black {
+  background-color: #191919;
+  border: none;
+  color: #fff;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; }
+
+.btn-black-outline {
+  background-color: #fff;
+  border: solid 1px #191919;
+  color: #191919;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; }
+
+.btn-dg {
+  background-color: #333333;
+  border: none;
+  color: #fff;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; }
+
+.btn-dg-outline {
+  background-color: #fff;
+  border: solid 1px #333333;
+  color: #333333;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; }
+
+.btn-lg {
+  background-color: #4C4C4C;
+  border: none;
+  color: #fff;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; }
+
+.btn-lg-outline {
+  background-color: #fff;
+  border: solid 1px #4C4C4C;
+  color: #4C4C4C;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; }
+
+.btn-orange {
+  background-color: #F59F00;
+  border: none;
+  color: #191919;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; }
+
+.btn-orange-outline {
+  background-color: #fff;
+  border: solid 1px #F59F00;
+  color: #F59F00;
+  padding: 5px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px; }
+
 .container {
   width: 90%;
   margin-left: auto;
@@ -80,6 +188,9 @@ p {
   clear: both; }
 
 .col-1,
+.col-10,
+.col-11,
+.col-12,
 .col-2,
 .col-3,
 .col-4,
@@ -87,10 +198,7 @@ p {
 .col-6,
 .col-7,
 .col-8,
-.col-9,
-.col-10,
-.col-11,
-.col-12 {
+.col-9 {
   width: 96%; }
 
 .col-1-sm {
