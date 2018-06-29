@@ -68,7 +68,11 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 8px; }
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out; }
+
+.btn-black:hover {
+  transform: scale(1.1); }
 
 .btn-black-outline {
   background-color: #fff;
@@ -81,7 +85,11 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 8px; }
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out; }
+
+.btn-black-outline:hover {
+  transform: scale(1.1); }
 
 .btn-dg {
   background-color: #333333;
@@ -94,7 +102,11 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 8px; }
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out; }
+
+.btn-dg:hover {
+  transform: scale(1.1); }
 
 .btn-dg-outline {
   background-color: #fff;
@@ -107,7 +119,11 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 8px; }
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out; }
+
+.btn-dg-outline:hover {
+  transform: scale(1.1); }
 
 .btn-lg {
   background-color: #4C4C4C;
@@ -120,7 +136,11 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 8px; }
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out; }
+
+.btn-lg:hover {
+  transform: scale(1.1); }
 
 .btn-lg-outline {
   background-color: #fff;
@@ -133,7 +153,11 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 8px; }
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out; }
+
+.btn-lg-outline:hover {
+  transform: scale(1.1); }
 
 .btn-orange {
   background-color: #F59F00;
@@ -146,7 +170,11 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 8px; }
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out; }
+
+.btn-orange:hover {
+  transform: scale(1.1); }
 
 .btn-orange-outline {
   background-color: #fff;
@@ -159,7 +187,11 @@ p {
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
-  border-radius: 8px; }
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out; }
+
+.btn-orange-outline:hover {
+  transform: scale(1.1); }
 
 .container {
   width: 90%;

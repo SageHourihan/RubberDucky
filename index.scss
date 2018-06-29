@@ -3,12 +3,11 @@ $black: #191919;
 $dark-grey: #333333;
 $light-grey: #4C4C4C;
 $white: #fff;
-$orange: #F59F00;
-// fonts
+$orange: #F59F00; // fonts
 @import url('https://fonts.googleapis.com/css?family=Inconsolata');
 $font-family: 'Inconsolata', Helvetica, sans-serif;
-$font-height: 1.5;
-// universal
+$font-height: 1.5; // universal
+
 body,
 html {
   height: 100%;
@@ -29,6 +28,7 @@ html {
   box-sizing: inherit;
 }
 // typography
+
 h1 {
   font-size: 2.5rem;
 }
@@ -59,6 +59,7 @@ p {
   line-height: 1.8;
 }
 // utility
+
 .left {
   text-align: left;
 }
@@ -81,6 +82,7 @@ p {
   display: none;
 }
 // component
+
 .btn-black {
   background-color: $black;
   border: none;
@@ -93,6 +95,11 @@ p {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-black:hover {
+  transform: scale(1.1);
 }
 
 .btn-black-outline {
@@ -107,6 +114,11 @@ p {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-black-outline:hover {
+  transform: scale(1.1);
 }
 
 .btn-dg {
@@ -121,6 +133,11 @@ p {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-dg:hover {
+  transform: scale(1.1);
 }
 
 .btn-dg-outline {
@@ -135,6 +152,11 @@ p {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-dg-outline:hover {
+  transform: scale(1.1);
 }
 
 .btn-lg {
@@ -149,6 +171,11 @@ p {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-lg:hover {
+  transform: scale(1.1);
 }
 
 .btn-lg-outline {
@@ -163,6 +190,11 @@ p {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-lg-outline:hover {
+  transform: scale(1.1);
 }
 
 .btn-orange {
@@ -177,6 +209,11 @@ p {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-orange:hover {
+  transform: scale(1.1);
 }
 
 .btn-orange-outline {
@@ -191,8 +228,12 @@ p {
   margin: 4px 2px;
   cursor: pointer;
   border-radius: 8px;
+  transition: all 0.2s ease-in-out;
 }
 
+.btn-orange-outline:hover {
+  transform: scale(1.1);
+}
 // grid
 $width: 96%;
 $gutter: 4%;
