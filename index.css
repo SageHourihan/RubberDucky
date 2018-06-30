@@ -268,7 +268,20 @@ tr:nth-child(even) {
     width: 50%;
     height: 25px; }
 
-select {
+.select-black {
+  margin: 50px;
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: none;
+  border-bottom: solid 1px #191919;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url("sharp_expand_more_black_18dp.png") no-repeat 90% 50%; }
+
+.select-orange {
   margin: 50px;
   width: 150px;
   padding: 5px 35px 5px 5px;
