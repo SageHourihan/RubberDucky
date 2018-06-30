@@ -208,6 +208,79 @@ th {
 tr:nth-child(even) {
   background-color: #dddddd; }
 
+.form-black {
+  width: 100%; }
+  .form-black input {
+    border: none;
+    border-bottom: solid 1px #191919;
+    margin: 5px;
+    font-size: 16px;
+    height: 25px; }
+  .form-black textarea {
+    border: none;
+    border-bottom: solid 1px #191919;
+    margin: 12px 8px;
+    width: 50%;
+    height: 25px; }
+
+.form-dg {
+  width: 100%; }
+  .form-dg input {
+    border: none;
+    border-bottom: solid 1px #333333;
+    margin: 5px;
+    font-size: 16px;
+    height: 25px; }
+  .form-dg textarea {
+    border: none;
+    border-bottom: solid 1px #333333;
+    margin: 12px 8px;
+    width: 50%;
+    height: 25px; }
+
+.form-lg {
+  width: 100%; }
+  .form-lg input {
+    border: none;
+    border-bottom: solid 1px #4C4C4C;
+    margin: 5px;
+    font-size: 16px;
+    height: 25px; }
+  .form-lg textarea {
+    border: none;
+    border-bottom: solid 1px #4C4C4C;
+    margin: 12px 8px;
+    width: 50%;
+    height: 25px; }
+
+.form-orange {
+  width: 100%; }
+  .form-orange input {
+    border: none;
+    border-bottom: solid 1px #F59F00;
+    margin: 5px;
+    font-size: 16px;
+    height: 25px; }
+  .form-orange textarea {
+    border: none;
+    border-bottom: solid 1px #F59F00;
+    margin: 12px 8px;
+    width: 50%;
+    height: 25px; }
+
+select {
+  margin: 50px;
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: none;
+  border-bottom: solid 1px #F59F00;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(http://www.stackoverflow.com/favicon.ico) 96%/15% no-repeat; }
+
 .container {
   width: 90%;
   margin-left: auto;

@@ -82,6 +82,7 @@ p {
   display: none;
 }
 // component
+//TODO: add button sizes (small, med, large)
 
 .btn-black {
   background-color: $black;
@@ -234,7 +235,7 @@ p {
 .btn-orange-outline:hover {
   transform: scale(1.1);
 }
-//TODO: fix font inside of table
+
 table {
   font-family: $font-family;
   border-collapse: collapse;
@@ -252,6 +253,97 @@ th {
 tr:nth-child(even) {
   background-color: #dddddd;
 }
+
+.form-black {
+  width: 100%;
+
+  input {
+    border: none;
+    border-bottom: solid 1px $black;
+    margin: 5px;
+    font-size: 16px;
+    height: 25px;
+  }
+  textarea {
+    border: none;
+    border-bottom: solid 1px $black;
+    margin: 12px 8px;
+    width: 50%;
+    height: 25px;
+  }
+}
+
+.form-dg {
+  width: 100%;
+
+  input {
+    border: none;
+    border-bottom: solid 1px $dark-grey;
+    margin: 5px;
+    font-size: 16px;
+    height: 25px;
+  }
+  textarea {
+    border: none;
+    border-bottom: solid 1px $dark-grey;
+    margin: 12px 8px;
+    width: 50%;
+    height: 25px;
+  }
+}
+
+.form-lg {
+  width: 100%;
+
+  input {
+    border: none;
+    border-bottom: solid 1px $light-grey;
+    margin: 5px;
+    font-size: 16px;
+    height: 25px;
+  }
+  textarea {
+    border: none;
+    border-bottom: solid 1px $light-grey;
+    margin: 12px 8px;
+    width: 50%;
+    height: 25px;
+  }
+}
+
+.form-orange {
+  width: 100%;
+
+  input {
+    border: none;
+    border-bottom: solid 1px $orange;
+    margin: 5px;
+    font-size: 16px;
+    height: 25px;
+  }
+
+  textarea {
+    border: none;
+    border-bottom: solid 1px $orange;
+    margin: 12px 8px;
+    width: 50%;
+    height: 25px;
+  }
+}
+select {
+  margin: 50px;
+  width: 150px;
+  padding: 5px 35px 5px 5px;
+  font-size: 16px;
+  border: none;
+  border-bottom: solid 1px $orange;
+  height: 34px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: url(http://www.stackoverflow.com/favicon.ico) 96% / 15% no-repeat;
+}
+
 // grid
 $width: 96%;
 $gutter: 4%;
