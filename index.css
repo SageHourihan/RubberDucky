@@ -279,7 +279,7 @@ select {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background: url(http://www.stackoverflow.com/favicon.ico) 96%/15% no-repeat; }
+  background: url("sharp_expand_more_black_18dp.png") no-repeat 90% 50%; }
 
 .container {
   width: 90%;
