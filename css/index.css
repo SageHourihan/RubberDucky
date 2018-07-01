@@ -202,7 +202,7 @@ p {
 .btn-lg-outline-m {
   background-color: #fff;
   border: solid 1px #4C4C4C;
-  color: #191919;
+  color: #4C4C4C;
   padding: 5px 25px;
   text-align: center;
   text-decoration: none;
@@ -271,8 +271,8 @@ p {
 
 .btn-orange-outline-s {
   background-color: #fff;
-  border: solid 1px #191919;
-  color: #191919;
+  border: solid 1px #F59F00;
+  color: #F59F00;
   padding: 5px 18px;
   text-align: center;
   text-decoration: none;
@@ -285,8 +285,8 @@ p {
 
 .btn-orange-outline-m {
   background-color: #fff;
-  border: solid 1px #191919;
-  color: #191919;
+  border: solid 1px #F59F00;
+  color: #F59F00;
   padding: 5px 25px;
   text-align: center;
   text-decoration: none;

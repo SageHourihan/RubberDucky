@@ -1,4 +1,4 @@
-// colors
+// colors and typography
 $black: #191919;
 $dark-grey: #333333;
 $light-grey: #4C4C4C;
@@ -27,7 +27,6 @@ html {
   line-height: $font-height;
   box-sizing: inherit;
 }
-// typography
 
 h1 {
   font-size: 2.5rem;
@@ -239,7 +238,7 @@ p {
 .btn-lg-outline-m {
   background-color: $white;
   border: solid 1px $light-grey;
-  color: $black;
+  color: $light-grey;
   padding: 5px 25px;
   text-align: center;
   text-decoration: none;
@@ -313,8 +312,8 @@ p {
 
 .btn-orange-outline-s {
   background-color: $white;
-  border: solid 1px $black;
-  color: $black;
+  border: solid 1px $orange;
+  color: $orange;
   padding: 5px 18px;
   text-align: center;
   text-decoration: none;
@@ -328,8 +327,8 @@ p {
 
 .btn-orange-outline-m {
   background-color: $white;
-  border: solid 1px$black;
-  color: $black;
+  border: solid 1px $orange;
+  color: $orange;
   padding: 5px 25px;
   text-align: center;
   text-decoration: none;
