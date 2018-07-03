@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>RubberDucky Documentation</title>
+  <style>
+    code,
+    pre {
+      font-size: 1.2rem;
+      line-height: 1.7rem;
+      color: #333;
+      text-align: left;
+      border: 1px solid #f9f9f9;
+      padding: 2px 5px;
+      background-color: #f7f7f7;
+      color: #555;
+      overflow-x: scroll;
+    }
+
+    hr {
+      color: #eeeeee;
+    }
+  </style>
+  <link rel="stylesheet" href="../css/index.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <h1 class="center">RubberDucky</h1>
+      <p>RubberDucky is a responsive mobile first CSS framework that utilizes the 12 column grid. Based off of a <a href="https://simplegrid.io">simplegrid</a>, RubberDucky's grid is easy to learn and offers simple, flat, minimalist styles to components.
+        Unlike other frameworks, RubberDucky only has a few class that you need to learn to get your website up and running, making it a great framework for beginners or lightweight projects.</p>
+      <hr>
+      <h3 class="center">Breakpoints</h3>
+      <p>RubberDucky has three breakpoints, breakpoint-small, breakpoint-med, and breakpoint-large. These breakpoints are used in the container class and the code is listed below.</p>
+      <pre><code>.container {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  @media only screen and (min-width: $breakpoint-small) {
+    width: 80%;
+  }
+  @media only screen and (min-width: $breakpoint-large) {
+    width: 75%;
+    max-width: 60rem;
+  }
+}</code></pre>
+      <hr>
+      <h3 class="center">Grid</h3>
+      <p>RubberDucky's 12 column layout is modeled after <a href="https://simplegrid.io">simplegrid</a> with a few changes. RubberDucky simplified the class names. The grid uses a width of 96% and a gutter of 4% and everything in the container is set to
+        a max-width of 960px but can easily be changed. The code:</p>
+    </div>
+    <pre><code>&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"container"</span>&gt;
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-1"</span>&gt;</span>col-1<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-2"</span>&gt;</span>col-2<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-3"</span>&gt;</span>col-3<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-4"</span>&gt;</span>col-4<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-5"</span>&gt;</span>col-5<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-6"</span>&gt;</span>col-6<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-7"</span>&gt;</span>col-7<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-8"</span>&gt;</span>col-8<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-9"</span>&gt;</span>col-9<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-10"</span>&gt;</span>col-10<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-11"</span>&gt;</span>col-11<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-12"</span>&gt;</span>col-12<span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+&lt;<span class="hljs-regexp">/div&gt;</span>
+</code></pre>
+    <hr>
+    <h3 class="center">Typography</h3>
+    <p>RubberDucky uses Inconsolata from Google fonts.</p>
+    <h1>This is an H1 tag.</h1>
+    <h2>This is an H2 tag.</h2>
+    <h3>This is an H3 tag.</h3>
+    <h4>This is an H4 tag.</h4>
+    <h5>This is an H5 tag.</h5>
+    <h6>This is an H6 tag.</h6>
+    <p>This is a Paragraph tag.</p>
+    <hr>
+
+    <h3 class="center">Styles</h3>
+    <p>Buttons:</p>
+    <div class="center">
+      <button class="btn-black-s" href="#">Small</button>
+      <button class="btn-black-outline-s" href="#">Small</button>
+      <button class="btn-lg-m" href="#">Medium</button>
+      <button class="btn-lg-outline-m" href="#">Medium</button>
+      <button class="btn-orange-l" href="#">Large</button>
+      <button class="btn-orange-outline-l" href="#">Submit</button>
+    </div>
+
+    <p>Tables:</p>
+    <table class="center">
+      <tr>
+        <th>Test</th>
+        <th>Test</th>
+        <th>Test</th>
+      </tr>
+      <tr>
+        <td>Test</td>
+        <td>Test</td>
+        <td>Test</td>
+      </tr>
+      <tr>
+        <td>Test</td>
+        <td>Test</td>
+        <td>Test</td>
+      </tr>
+    </table>
+
+    <p>Forms:</p>
+    <form action="" class="form-orange center">
+      <input type="text" placeholder="Enter username">
+      <input type="password" placeholder="Enter password"><br>
+      <textarea placeholder="Enter long text here"></textarea><br>
+      <select name="Test" id="" class="select-black">
+    <option value="Test">Multi Select</option>
+    <option value="Test">Multi Select</option>
+    <option value="Test">Multi Select</option>
+  </select>
+    </form>
+    <hr>
+    <h3 class="center">License</h3>
+    <p>MIT License Copyright (c) 2018 Sage Hourihan Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including
+      without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright
+      notice and this permission notice shall be included in all copies or substantial portions of the Software. THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+      FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
+      WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    </p>
+    <hr>
+    <p class="center">Made by Sage Hourihan</p>
+    <div class="center"><button class="btn-orange-outline-m" onclick="window.open('https://github.com/samiho97/RubberDucky')">Github</button>
+    </div>
+  </div>
+
+</body>
+
+</html>

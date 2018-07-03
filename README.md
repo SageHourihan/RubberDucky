@@ -1,2 +1,5 @@
-# RubberDucky
-RubberDucky is a responsive front-end framework. Using Simplegrid for the layout, RubberDucky aims to be a simple minimalist framework that is built using Sass. It includes styles for buttons, tables, and form elements. Navbars and footers can be made easily with the use of the grid and styles can easily be added to other elements that aren't included like ul, li, sections, etc.
+#RubberDucky
+RubberDucky is a responsive mobile first CSS framework that utilizes the 12 column grid. Based off of [simplegrid](https://simplegrid.io), RubberDucky's grid is easy to learn and offers simple, flat, minimalist styles to components. Unlike other frameworks, RubberDucky only has a few class that you need to learn to get your website up and running, making it a great framework for beginners or lightweight projects.
+***
+###Documentation
+Follow the link to read the [documentation](https://github.com/samiho97/RubberDucky).
